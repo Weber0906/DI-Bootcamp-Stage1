@@ -1,0 +1,34 @@
+body {
+    margin: 0;
+}
+
+.Nav {
+    align-content: right;
+}
+.page-wrap {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #EEE;
+}
+
+.container {
+    width: 80%;
+    max-width: 1000px;
+    min-width: 200px;
+}
+
+.video-container {
+    position: relative;
+    width: 100%;
+    height: 0;
+    padding-top: 52.65%;
+    border-radius: 10px;
+    }
+
+.video-container iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
