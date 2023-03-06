@@ -1,16 +1,44 @@
-body {
+h1 {
+    text-align: center;
+    text-decoration: solid;
+}
+.index {
     margin: 0;
+    background-image: url(Images/Index-background.jpg);
+    background-size: cover; 
 }
 
+.other {
+    margin: 0;
+    background-image: url(Images/Background.jpg);
+    background-size: cover;
+}
 .Nav {
-    align-content: right;
+    text-align: right;
+    padding: 2%;
+}
+
+.Header {
+    text-align: center;
+}
+
+.General {
+   text-align: center;
+   font-size: large;
+}
+
+ul {
+    list-style: none;
+}
+#General {
+    font-size: 25px;
 }
 .page-wrap {
     min-height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #EEE;
+    
 }
 
 .container {
