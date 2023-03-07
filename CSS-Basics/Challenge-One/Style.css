@@ -1,0 +1,16 @@
+body {
+    background-color: rgb(44, 196, 226);
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 10px;
+}
+#wrap {
+    text-align: left;  
+}
+
+li::first-letter {
+    font-size: 2em;
+}
+ul {
+list-style: none;
+text-align: center;
+}
