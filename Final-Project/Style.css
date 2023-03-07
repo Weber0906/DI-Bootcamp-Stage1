@@ -8,12 +8,16 @@ h1 {
 .index {
     margin: 0;
     background-image: url(Images/Index-background.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
     background-size: cover; 
 }
 
 .other {
     margin: 0;
     background-image: url(Images/Background.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
     background-size: cover;
 }
 .Nav {
