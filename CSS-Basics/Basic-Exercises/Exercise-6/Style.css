@@ -2,16 +2,11 @@
 .small-para {
   color: hsl(0, 100%, 50%);
 }
-
-.small-para {
-  font-size: 14px;
-}
-
 .para {
-  font-size: 22px;
+    font-size: 22px;
 }
 
-.confirm {
+#confirm-button {
   background: green;
   color: white;
   font-weight: bold;
@@ -23,12 +18,14 @@
   font-size: 20px;
 }
 
-.child {
-  color: red;
-  font-size: 14px;
-}
-
 div.text {
   color: green;
   font-size: 22px;
 }
+.text .child {
+    color: red;
+    font-size: 14px;
+  }
+  .small-para {
+    font-size: 14px;
+  }
