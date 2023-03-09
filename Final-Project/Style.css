@@ -125,6 +125,7 @@ h2 {
            background-size: contain;
            background-repeat: no-repeat;
            background-position: center;
+           text-align: center;
            
         }
     #sinatrashop {
@@ -137,7 +138,8 @@ h2 {
            background-image: url(Images/Sinatrashop.png);
            background-size: contain;
            background-repeat: no-repeat;
-           background-position: center; 
+           background-position: center;
+           text-align: center; 
 
         }
     #amazon {
@@ -149,7 +151,8 @@ h2 {
             background-image: url(Images/Amazon.png);
             background-size: contain;
             background-repeat: no-repeat;
-            background-position: center; 
+            background-position: center;
+            text-align: center; 
         }
         
     #biography {
@@ -186,4 +189,18 @@ table {
     border: 2px solid black;
     border-radius: 15px;
     padding: 1%;
+}
+
+#nsl {
+    width: 70%;
+    height: fit-content;
+    margin-left: 10%;
+    font-size: 26px;
+    text-align: center;
+    padding: 1%;
+}
+
+#buy {
+    margin-left: 5%;
+    text-align: center;
 }
