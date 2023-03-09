@@ -177,5 +177,13 @@ table {
     padding: 1%;
 }
        
-
-    
+#form {
+    width: 30%;
+    height: auto;
+    margin-left: 30%;
+    font-size: 24px;
+    text-align: end;
+    border: 2px solid black;
+    border-radius: 15px;
+    padding: 1%;
+}
