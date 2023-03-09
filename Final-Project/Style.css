@@ -1,9 +1,17 @@
 body {
-  
+    font-family: 'Sarabun', sans-serif;
+
 }
 h1 {
     text-align: center;
-    text-decoration: solid;
+    font-size: 36px;
+}
+
+h2 {
+    text-align: center;
+    margin-left: 26%;
+    margin-right: 15px;
+
 }
 .index {
     margin: 0;
@@ -21,19 +29,30 @@ h1 {
     background-size: cover;
 }
 .Nav {
+    color: black;
+    font-size: 20px;
     text-align: right;
+    text-transform: uppercase;
+    margin-right:7%;
     padding: 2%;
+  
+}
+.Nav:hover {
+    color: rgb(220, 197, 197);
+
 }
 
-.Header {
+h3 {
     text-align: center;
-    
-    
 }
-
 .General {
-   text-align: center;
+   width: fit-content;
+   height: fit-content;
+   text-align: left;
    font-size: large;
+   margin-left: 26%;
+   text-transform: uppercase;
+   padding-right: 10px;
 }
 
 ul {
@@ -61,7 +80,6 @@ ul {
     width: 100%;
     height: 0;
     padding-top: 52.65%;
-    border-radius: 10px;
     }
 
 .video-container iframe {
@@ -69,3 +87,95 @@ ul {
         top: 0;
         left: 0;
     }
+
+    .page-container {
+        position: relative;
+        width: 100%;
+        height: 0;
+        padding-top: 52.65%;
+        border-radius: 10px;
+        }
+    
+    .page-container iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
+h2 {
+    text-align: center;
+}
+.buy {
+    width: 600px;
+    height: 190px;
+    padding-top: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+   margin-right: auto;
+   
+
+}
+    #ebay {
+           float: left;
+           width: 180px;
+           height: 180px;
+           border: solid black;
+           border-radius: 15px;
+           background-image: url(Images/ebay.png);
+           background-size: contain;
+           background-repeat: no-repeat;
+           background-position: center;
+           
+        }
+    #sinatrashop {
+           float: left;
+           width: 180px;
+           height: 180px;
+           border: solid black; 
+           margin-left: 20px;
+           border-radius: 15px;
+           background-image: url(Images/Sinatrashop.png);
+           background-size: contain;
+           background-repeat: no-repeat;
+           background-position: center; 
+
+        }
+    #amazon {
+            float: right;
+            width: 180px;
+            height: 180px;
+            border: solid black; 
+            border-radius: 15px;
+            background-image: url(Images/Amazon.png);
+            background-size: contain;
+            background-repeat: no-repeat;
+            background-position: center; 
+        }
+        
+    #biography {
+       width: 60%;
+       height: fit-content;
+       text-align: justify; 
+       margin-left: 10%;
+       font-size: 26px;
+    }
+    #discography {
+        width: 60%;
+        height: fit-content;
+        margin-left: 10%;
+        font-size: 26px;
+        text-align: center;
+    }
+table {
+    width: 60%;
+    height: fit-content;
+    margin-left: 10%;
+    font-size: 26px;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 15px;
+    padding: 1%;
+}
+       
+
+    
