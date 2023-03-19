@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Marvel', sans-serif;
+}
+
+body {
+    height: 100vh;
+}
+.background {
+    top: 100px;
+    position: fixed;
+    height: calc(100vh - 100px);
+    /* width: 100vw; */
+}
+
+.header {
+    height: 100px;
+    width: 100vw;
+    background-color: rgb(4, 18, 19);
+    color: rgb(249, 249, 245);
+    position: fixed;
+}
+.navbarlogo {
+    margin: 5px;
+    padding: 5px;
+    height: 90px;
+    float: left;
+    filter: invert(1);
+    text-align: left;
+}
+
+.navbar {
+    display: inline;
+    text-align: right;
+    padding: 30px;
+    font-size: 1.2rem;
+
+ 
+}
+
+.navbar li:hover {
+    color: rgb(156, 26, 26);
+}
+
+.footer {
+    bottom: 0%;
+    height: 90px;
+    overflow: scroll;
+    position: absolute;
+    margin: 1%;
+    padding: 2%;
+    background-color: antiquewhite;
+    opacity: 0.6;
+    border-radius: 20px;
+
+}
+.info {
+    font-size: 1.3em;
+    color: rgb(40, 10, 10);
+    display: inline-block;
+    position: relative;
+    overflow: auto;
+}
+
